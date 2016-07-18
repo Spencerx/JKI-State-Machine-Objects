@@ -22,13 +22,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Base Classes" Type="Folder">
-			<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
-			<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
+			<Item Name="SMO.lvclass" Type="LVClass" URL="../../src/SMO/SMO.lvclass"/>
+			<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../../src/SMO.UI/SMO.UI.lvclass"/>
 		</Item>
-		<Item Name="SMO.TopLevel.TestLauncher.vi" Type="VI" URL="../../tests/SMO.TopLevel/SMO.TopLevel.TestLauncher.vi"/>
-		<Item Name="SMO.TopLevel.lvclass" Type="LVClass" URL="../../tests/SMO.TopLevel/SMO.TopLevel.lvclass"/>
-		<Item Name="SMO.A.lvclass" Type="LVClass" URL="../../tests/SMO.A/SMO.A.lvclass"/>
-		<Item Name="SMO.B.lvclass" Type="LVClass" URL="../../tests/SMO.B/SMO.B.lvclass"/>
+		<Item Name="SMO.TopLevel.TestLauncher.vi" Type="VI" URL="../SMO.TopLevel/SMO.TopLevel.TestLauncher.vi"/>
+		<Item Name="SMO.TopLevel.lvclass" Type="LVClass" URL="../SMO.TopLevel/SMO.TopLevel.lvclass"/>
+		<Item Name="SMO.A.lvclass" Type="LVClass" URL="../SMO.A/SMO.A.lvclass"/>
+		<Item Name="SMO.B.lvclass" Type="LVClass" URL="../SMO.B/SMO.B.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -86,14 +86,14 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
-			<Item Name="Registry-SMO.lvclass" Type="LVClass" URL="../Registry/Registry-SMO.lvclass"/>
-			<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../Support/Attribute.Identity/Attribute.Identity.lvclass"/>
-			<Item Name="Attribute.lvclass" Type="LVClass" URL="../Support/Attribute/Attribute.lvclass"/>
-			<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
-			<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../Support/Attribute.Owner/Attribute.Owner.lvclass"/>
-			<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
-			<Item Name="Attribute.Config.lvclass" Type="LVClass" URL="../Support/Attribute.Config/Attribute.Config.lvclass"/>
-			<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
+			<Item Name="Registry-SMO.lvclass" Type="LVClass" URL="../../src/Registry/Registry-SMO.lvclass"/>
+			<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Identity/Attribute.Identity.lvclass"/>
+			<Item Name="Attribute.lvclass" Type="LVClass" URL="../../src/Support/Attribute/Attribute.lvclass"/>
+			<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../../src/Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
+			<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Owner/Attribute.Owner.lvclass"/>
+			<Item Name="Dependency.lvclass" Type="LVClass" URL="../../src/Dependency/Dependency.lvclass"/>
+			<Item Name="Attribute.Config.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Config/Attribute.Config.lvclass"/>
+			<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../../src/Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
